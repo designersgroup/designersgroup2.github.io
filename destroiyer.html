@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destroiyer</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand|Raleway|Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+</head>
+<body>
+          <script type="text/javascript">
+                jQuery(function(f){
+                        var element = f('#back-top');
+                        f(window).scroll(function(){
+                        element['fade'+ (f(this).scrollTop() > 900 ? 'In': 'Out')](500);           
+                        });
+                });
+            </script>
+                                      <script type="text/javascript">
+               $(document).ready(function(){
+                   $("#back-top").on("click","a", function (event) {
+                       event.preventDefault();
+                       var id  = $(this).attr('href'),
+                           top = $(id).offset().top;
+                       $('body,html').animate({scrollTop: top}, 1500);
+                   });
+               });
+            </script>
+           <script type="text/javascript">
+               $(document).ready(function(){
+                   $("#menu").on("click","a", function (event) {
+                       event.preventDefault();
+                       var id  = $(this).attr('href'),
+                           top = $(id).offset().top;
+                       $('body,html').animate({scrollTop: top}, 1500);
+                   });
+               });
+            </script>
+                <nav id="back-top">
+                <ul class="listnav">
+                    <li><a href="#yak1">about me</a></li>
+                    <li><a href="#yak2">my projects</a></li>
+                    <li><a href="#yak3">follow me</a></li>
+                </ul>
+            </nav>
+    		<div class="content">
+			<div class="content__container">
+				<p class="content__container__text">
+					i am
+				</p>
+				<ul class="content__container__list">
+					<li class="content__container__list__item">赤いモンスター</li>
+					<li class="content__container__list__item">destroiyer_</li>
+					<li class="content__container__list__item">RE_W</li>
+					<li class="content__container__list__item">galeksiy</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<nav id="menu">
+                <ul class="listnav">
+                    <li><a href="#yak1">about me</a></li>
+                    <li><a href="#yak2">my projects</a></li>
+                    <li><a href="#yak3">follow me</a></li>
+                </ul>
+        
+            </nav>
+    </div>
+		<div id="yak1">
+		    <div class="subdiv">
+		       <p class="subt">Designer/WebDesigner</p>
+		</div>  
+    </div>  
+		<div id="yak2">
+		    <div class="subdiv2">
+		       <p class="subt">DG</p>
+		       <p class="subt">WallPapaper</p>
+               <p class="subt">RE_W</p>
+		</div>  
+    </div>
+          	<div id="yak3">
+		    <div class="subdiv3">
+               <p class="subt">Follow me</p>
+                <p class="subt2"><img src="/img/instagram.png" alt="" class="p"><span class="span"><a id="a" href="https://www.instagram.com/destroiyer_/?hl=uk">Instagram</a></span>
+                    <img src="/img/telegram-logo.png" alt="" class="p"><span class="span"><a id="a" href="https://web.telegram.org/#/im?p=c1287901201_12253971911989101602">Telegram</a></span>
+                    <img src="/img/tumblr.png" alt="" class="p"><span class="span"><a id="a" href="https://www.tumblr.com/blog/wallpaper49">Tumblr</a></span></p>
+                      <p class="subt">My mail</p>
+                <p class="subt2"><img src="/img/gmail.png" alt="" class="p"><span class="span">puma37271@gmail.com</span></p>
+		</div>  
+    </div>  
+</body>
+</html>
