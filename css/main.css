@@ -1,8 +1,8 @@
 
 body {
-
-
-    background-image: url(/img/g2.jpg) ;
+    padding: 0;
+    margin:0;
+    background-image: url(img/photo_2018-05-01_15-41-18.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -120,10 +120,6 @@ body {
   }
 }
 /* end */
-.jok
-{
-    text-align: center;
-}
 a {
     list-style: none;
     color: #c71d26;
@@ -137,14 +133,15 @@ a {
     padding-left: 70px;
     padding-right: 70px;
     display: flex;
-    height:30px;
+    height: 40px;
     text-align: center;
-    padding-top: 12px;
+    padding-top:8%;
     -webkit-transition-timing-function: ease;
     -webkit-transition-duration: 150ms;
     -moz-transition-timing-function: ease;
     -moz-transition-duration: 150ms;
-    
+    font-size: 17px;
+    background-color: black;
     
 }
 .listnav > li a:hover {
@@ -153,11 +150,11 @@ a {
 }
 #menu > ul
 {
-    padding-top: 16px;
+    padding-top: 12px;
     padding-right: 45px;
     justify-content: center;
     display: flex;
-      list-style-type: none;
+    list-style-type: none;
     text-decoration: none;
 }
 #menu
@@ -165,11 +162,12 @@ a {
     height: 50px;
     position: relative;
     margin-top: 52%;
+    
 }
 
 #yak1 
-{   margin-top: 2%;
-    margin-left: 21.4%;
+{   margin-top: 3%;
+    margin-left: 21.45%;
     margin-right: 21.4%;
     font-family: 'Lato', sans-serif;
     position: relative;
@@ -177,6 +175,9 @@ a {
     height: 950px;
     background-image:url(/img/photo_2018-04-26_06-37-23.jpg);
     z-index: 20;
+    background-attachment: fixed;
+    background-position: center;
+ 
 }
 
 .subdiv {
@@ -188,12 +189,13 @@ a {
     color: white;
     background-color: black;
     font-size: 70px;
+    
 }
 
 #back-top {
-    position:fixed;
-display:none;
-margin-left: 80%;
+position:fixed;
+display: none;
+padding-left: 78%;
 margin-top: -30%;
 }
 
@@ -204,29 +206,33 @@ margin-top: -30%;
 
 
 #yak2 {
-    margin-top: 2%;
-    margin-left: 21.4%;
     margin-right: 21.4%;
+    margin-left: 21.4%;
     font-family: 'Lato', sans-serif;
     position: relative;
     text-align: center;
     height: 950px;
-    background-image:url(/img/pink.jpg);
+    background-position: center;
+    background-image:url(/img/photo_2018-05-03_17-04-23.jpg);
+    background-attachment: fixed;
     z-index: 20;
 }
 
-#yak3 {
-    margin-top: 2%;
-    margin-left: 21.4%;
+#yak3
+{
     margin-right: 21.4%;
+    margin-left: 21.4%;
     font-family: 'Lato', sans-serif;
     position: relative;
     text-align: center;
     height: 950px;
-    background-image:url(/img/s.jpg);
+    background-image:url(/img/photo_2018-05-01_15-41-18.jpg);
     background-repeat: no-repeat;
     z-index: 20;
+    background-attachment: fixed;
+    background-position: center;
 }
+
 
 .subdiv3 {
      padding-top: 13%;
@@ -237,19 +243,16 @@ margin-top: -30%;
 .subt2 {
     font-size: 40px;
     color: white;
-    background-color: black;
-  
+    background-color: black; 
 }
-
 .p {
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .span {
-    padding-left: 10px;
+    padding-left: 0.3em;  
 }
-
 div {
     text-align: center;
 }
@@ -257,4 +260,55 @@ div {
 #a {
     color: white;
     letter-spacing: 0px;
+}
+.subt1 {
+        color: white;
+    background-color: black;
+    font-size: 70px;
+}
+
+.subt9 {
+      color: white;
+    background-color: black;
+    font-size: 70px;
+}
+
+#yak4 {
+    position: absolute;
+    top:0%;
+}
+
+.listnav1 > li a {
+    padding-top: 8px;
+    float: left;
+}
+.listnav {
+    padding-top: 8px;
+}
+.l
+{   height: 2em;
+    text-align: center;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-duration: 150ms;
+    -moz-transition-timing-function: ease;
+    -moz-transition-duration: 150ms;
+}
+.l:hover
+{
+    background-color: white;
+      transition: 0.2s ease;
+}
+#a1
+{
+    margin-top:-2%;
+    font-size: 17px;
+}
+.l {
+    
+    width: 10em;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.span1 {
+    padding-left: 0.1em;
 }
