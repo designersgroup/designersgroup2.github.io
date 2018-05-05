@@ -2,11 +2,7 @@
 body {
     padding: 0;
     margin:0;
-<<<<<<< HEAD
-    background-image: url(/img/photo_2018-05-01_15-40-30.jpg) ;
-=======
-    
->>>>>>> c19d751944cef29674958c46e770ee5c89467e56
+    background-image: url(/img/photo_2018-05-01_15-40-30.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
