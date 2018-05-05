@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin:0;
-    background-image: url(img/photo_2018-05-01_15-41-18.jpg) ;
+    background-image: url(/img/photo_2018-05-01_15-40-30.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -135,13 +135,13 @@ a {
     display: flex;
     height: 40px;
     text-align: center;
-    padding-top:8%;
+    padding-top:4%;
     -webkit-transition-timing-function: ease;
     -webkit-transition-duration: 150ms;
     -moz-transition-timing-function: ease;
     -moz-transition-duration: 150ms;
     font-size: 17px;
-    background-color: black;
+
     
 }
 .listnav > li a:hover {
@@ -201,7 +201,7 @@ margin-top: -30%;
 
 .subdiv2 {
     z-index: 22;
-    padding-top: 25%;
+    padding-top: 23%;
 }
 
 
@@ -217,7 +217,6 @@ margin-top: -30%;
     background-attachment: fixed;
     z-index: 20;
 }
-
 #yak3
 {
     margin-right: 21.4%;
@@ -232,14 +231,9 @@ margin-top: -30%;
     background-attachment: fixed;
     background-position: center;
 }
-
-
 .subdiv3 {
      padding-top: 13%;
 }
-
-
-
 .subt2 {
     font-size: 40px;
     color: white;
@@ -277,14 +271,6 @@ div {
     position: absolute;
     top:0%;
 }
-
-.listnav1 > li a {
-    padding-top: 8px;
-    float: left;
-}
-.listnav {
-    padding-top: 8px;
-}
 .l
 {   height: 2em;
     text-align: center;
@@ -311,4 +297,235 @@ div {
 }
 .span1 {
     padding-left: 0.1em;
+}
+@media screen and (min-width:200px) and (max-width:865px)
+{
+    #yak1 
+{   
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    text-align: center;
+    height: 500px;
+    background-image:url(/img/photo_2018-04-26_06-37-23.jpg);
+    z-index: 20;
+    background-attachment: fixed;
+    background-position: center;
+ 
+}
+    #yak2
+{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    text-align: center;
+    height: 500px;
+    background-position: center;
+    background-image:url(/img/photo_2018-05-03_17-04-23.jpg);
+    background-attachment: fixed;
+    z-index: 20;
+}
+    #yak3
+{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    text-align: center;
+    height: 550px;
+    background-image:url(/img/photo_2018-05-01_15-41-18.jpg);
+    background-repeat: no-repeat;
+    z-index: 20;
+    background-attachment: fixed;
+  
+}
+    .content {
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+    height: 43px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: black;
+    background-color: white;
+    }
+.content__container {
+    font-weight: 500;
+    overflow: hidden;
+    height: 120px;
+}
+
+.content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+.content__container__list {
+       margin-top: 0;
+    padding-left: 85px;
+    text-align: left;
+    list-style: none;
+}    
+.content__container__list__item {
+    line-height: 40px;
+    margin: 0;
+}
+
+
+@-webkit-keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%, 12.66%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  16.66%, 29.32% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  33.32%,45.98% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  49.98%,62.64% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  66.64%,79.3% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  83.3%,95.96% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+}
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%, 12.66%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  16.66%, 29.32% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  33.32%,45.98% {
+    -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+  }
+  49.98%,62.64% {
+    -webkit-transform: translate3d(0, 0%%, 0);
+            transform: translate3d(0, 0%%, 0);
+  }
+  66.64%,79.3% {
+    -webkit-transform: translate3d(0, 0%%, 0);
+            transform: translate3d(0, 0%%, 0);
+  }
+  83.3%,95.96% {
+    -weebkit-transform: translate3d(0, 0%%, 0);
+            transform: translate3d(0, 0%%, 0);
+  }
+}
+.listnav > li a {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    height: 40px;
+    text-align: center;
+    padding-top:2%;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-duration: 150ms;
+    -moz-transition-timing-function: ease;
+    -moz-transition-duration: 150ms;
+    font-size: 17px;
+    background-color: transparent;
+    
+}
+.subdiv {
+    z-index: 22;
+    padding-top: 30%;
+}
+
+    .subdiv2 {
+    z-index: 22;
+    padding-top: 1%;
+}
+        .subdiv3 {
+    z-index: 22;
+    padding-top: 0.1%;
+}
+#back-top {
+position:absolute;
+display: none;
+padding-left: 0%;
+margin-top: 0%;
+}
+}
+@media screen and (min-width:200px) and (max-width:500px)
+{
+    .content {
+    width:72%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+    height: 43px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: black;
+    background-color: white;
+    }
+    .listnav > li a {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    height: 40px;
+    text-align: center;
+    padding-top:2%;
+    -webkit-transition-timing-function: none;
+    -webkit-transition-duration: 0ms;
+    -moz-transition-timing-function: none;
+    -moz-transition-duration: 0ms;
+    font-size: 17px;
+    background-color: transparent;
+    }
+    .listnav > li a:hover {
+   background-color: transparent;
+      transition: 0.2s ease;
+}
+}
+@media screen and (min-width:824px) and (max-width:850px)
+{
+#menu
+{   
+    height: 50px;
+    position: relative;
+    margin-top: 103%;
+    
+}
 }
