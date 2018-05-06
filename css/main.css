@@ -727,9 +727,10 @@ margin-top: 100%;
     }
     .instagram,.telegram,.tumblr
     {
-        width: 33.3333333%;
+        width: 19.3333333%;
         position: relative;
-  float: left;
+        float: left;
+        
         
     }
     .subt2
