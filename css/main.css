@@ -239,13 +239,18 @@ margin-top: -30%;
     padding-left: 10px;
 }
 .subt2 {
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     background-color: black; 
 }
 .span {
     padding-left:0.3em;  
     font-size: 30px;
+}
+.mailp
+{
+    padding-top:2%;
+    height: 1%;
 }
 div {
     text-align: center;
@@ -270,6 +275,10 @@ div {
 #yak4 {
     position: absolute;
     top:0%;
+}
+.mymail
+{
+    padding-top: 4%;
 }
 .l
 {   height: 2em;
@@ -481,7 +490,7 @@ div {
 position:absolute;
 display: none;
 padding-left: 0%;
-margin-top: 0%;
+margin-top: 100%;
 }
 }
 @media screen and (min-width:380px) and (max-width:500px)
@@ -620,7 +629,7 @@ margin-top: 0%;
     }
     .subt2
     {
-        height: 40px;
+        height: 60px;
     position: relative;
     width: 100%;
     z-index: 600;
