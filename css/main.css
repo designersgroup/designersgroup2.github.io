@@ -240,13 +240,18 @@ a
     z-index: 22;
     padding-top: 40%;
 }
-.subt2
+.subtd
 {
-    font-size: 60px;
-    color: white;
+      color: white;
     background-color: black;
     display: flex;
     justify-content: center;
+}
+.spanw
+{
+   font-size: 30px;
+   font-weight: 200;
+   font-family: 'Lato', sans-serif; 
 }
 
 /* end first block css */
@@ -273,7 +278,7 @@ a
 .subdiv2
 {
     z-index: 22;
-    padding-top: 23%;
+    padding-top: 13%;
 }
 .subt1
 {
@@ -374,7 +379,8 @@ a
 
 /* hidden nav menu */
 
-#back-top {
+#back-top
+{
 position:fixed;
 display: none;
 padding-left: 78%;
@@ -398,7 +404,8 @@ margin-top: -30%;
     margin-top:-2%;
     font-size: 17px;
 }
-.l {
+.l
+{
     
     width: 10em;
     padding-left: 8%;
@@ -656,6 +663,18 @@ margin-top: 100%;
 }
 @media screen and (min-width:294px) and (max-width:425px)
 {
+    .subdiv 
+{
+    z-index: 22;
+    padding-top: 72%;
+}
+    .spanw
+{
+
+   font-size: 25px;
+   font-weight: 100;
+   font-family: 'Lato', sans-serif;
+}
     #yak1 
 {   
     margin-top: 40%;
@@ -692,7 +711,7 @@ margin-top: 100%;
     position: relative;
     text-align: center;
     height: 400px;
-    background-image:url(/img/pinksky.jpg));
+    background-image:url(/img/pinksky.jpg);
     background-repeat: no-repeat;
     z-index: 20;
     background-attachment: fixed;
@@ -710,6 +729,13 @@ margin-top: 100%;
     color: white;
     background-color: black; 
     height: 40px;
+}
+    .subtd
+{
+  font-size:20px;
+    color: white;
+    background-color: black; 
+    height: 30px;
 }
     .p {
     width: 20px;
@@ -762,13 +788,15 @@ margin-top: 100%;
         margin-top: 23%;
         font-size:40px;
     }
-    #back-top {
+    #back-top
+    {
 position:absolute;
 display: none;
 padding-left: 00%;
 margin-top: 200%;
 }
-    .listnav > li a {
+    .listnav > li a
+    {
     padding-left: 0px;
     padding-right: 25px;
     height: 40px;
