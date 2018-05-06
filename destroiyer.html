@@ -10,15 +10,17 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
-          <script type="text/javascript" id="a1">
+   
+                                    <!--   scripts  -->
+    <script type="text/javascript" id="a1">
                 jQuery(function(f){
                         var element = f('#back-top');
                         f(window).scroll(function(){
                         element['fade'+ (f(this).scrollTop() > 300 ? 'In': 'Out')](200);           
                         });
                 });
-            </script>
-                                      <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
                $(document).ready(function(){
                    $("#back-top").on("click","a", function (event) {
                        event.preventDefault();
@@ -27,8 +29,8 @@
                        $('body,html').animate({scrollTop: top}, 1500);
                    });
                });
-            </script>
-           <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
                $(document).ready(function(){
                    $("#menu").on("click","a", function (event) {
                        event.preventDefault();
@@ -37,17 +39,28 @@
                        $('body,html').animate({scrollTop: top}, 1500);
                    });
                });
-            </script>
-                <nav id="back-top">
-                <ul class="listnav1">
-                    <li class="l"><a href="#yak4" id="a1">home page</a></li>
-                    <li class="l"><a href="#yak1" id="a1">about me</a></li>
-                    <li class="l"><a href="#yak2" id="a1">my projects</a></li>
-                    <li class="l"><a href="#yak3" id="a1">follow me</a></li>
-                </ul>
-            </nav>
-            <div id="yak4"></div>
-    		<div class="content">
+    </script>
+                                   <!--  end script  -->
+                                    
+                                    
+                                      <!--  all contetn  -->
+                                      
+                                      
+                                  <!--  hidden nav menu   -->
+    <nav id="back-top">
+                    <ul class="listnav1">
+                        <li class="l"><a href="#yak4" id="a1">home page</a></li>
+                        <li class="l"><a href="#yak1" id="a1">about me</a></li>
+                        <li class="l"><a href="#yak2" id="a1">my projects</a></li>
+                        <li class="l"><a href="#yak3" id="a1">follow me</a></li>
+                    </ul>
+                </nav>
+    <div id="yak4"></div>
+                                <!--  end hidden nav menu  -->
+                                
+                                
+                                    <!--  upper slider  -->
+    <div class="content">
 			<div class="content__container">
 				<p class="content__container__text">
 					i am
@@ -60,7 +73,12 @@
 				</ul>
 			</div>
 		</div>
-		<div>
+		                        <!--  end upper slider  -->
+		                         
+		                         
+		                         
+                               <!--  blocks with content  -->
+    <div>
 			<nav id="menu">
                 <ul class="listnav">
                     <li><a href="#yak1">about me</a></li>
@@ -70,53 +88,63 @@
         
             </nav>
     </div>
-		<div id="yak1">
+    <div id="yak1">
 		    <div class="subdiv">
                 <p class="subt2"><span class="span">Designer/WebDesigner</span></p>
 		</div>  
     </div>  
-		<div id="yak2">
+    <div id="yak2">
 		    <div class="subdiv2">
 		       <p class="subt1">DG</p>
 		       <p class="subt1">WallPapaper</p>
                <p class="subt1">RE_W</p>
 		</div>  
     </div>
-          	<div id="yak3">
-		    <div class="subdiv3">
-                <div class="subt2"><p class="follow">Follow me</p></div>
-                <div class="subt2">
-                  <div class="instagram">
-                   
-                   <span class="span">
-                   <a id="a" href="https://www.instagram.com/destroiyer_/?hl=uk"><img src="/img/instagram.png" alt="" class="p"></a>
-                   </span>
-                   </div>
-                   <div class="telegram">
-
-                    <span class="span">
-                    <a id="a" href="https://web.telegram.org/#/im?p=c1287901201_12253971911989101602"><img src="/img/telegram-logo.png" alt="" class="p"></a>
-                    </span>
+    <div id="yak3">
+		        <div class="subdiv3">
+                    <div class="subt2">
+                        <p class="follow">Follow me</p>
                     </div>
-                    <div class="tumblr">
-                   
-                     <span class="span">
-                     <a id="a" href="https://www.tumblr.com/blog/wallpaper49">
-                          <img src="/img/tumblr.png" alt="" class="p">
-                     </a>
-                     </span>
-                     </div>
-                </div>
-                     <div>
-                      <div class="subt3"><p class="mymail">My mail</p>
-                      <div class="mailp">
-                <p class="subt2"><img src="/img/gmail.png" alt="" class="p">
-                <span class="span1">puma37271@gmail.com</span>
-                </p>
-                          </div>
-                </div>
-                </div>
-		</div>  
-    </div>  
+                        <div class="subt2">
+                            <div class="instagram">
+                                <span class="span">
+                                       <a id="a" href="https://www.instagram.com/destroiyer_/?hl=uk">
+                                           <img src="/img/instagram.png" alt="" class="p">
+                                       </a>
+                                </span>
+                            </div>
+                           <div class="telegram">
+                                <span class="span">
+                                        <a id="a" href="https://web.telegram.org/#/im?p=c1287901201_12253971911989101602">
+                                            <img src="/img/telegram-logo.png" alt="" class="p">
+                                        </a>
+                                </span>
+                           </div>
+                           <div class="tumblr">
+                                <span class="span">
+                                        <a id="a" href="https://www.tumblr.com/blog/wallpaper49">
+                                            <img src="/img/tumblr.png" alt="" class="p">
+                                        </a>
+                                </span>
+                           </div>
+                        </div>
+                        <div>
+                              <div class="subt3">
+                                  <div class="mailp">
+                                      <p class="mymail">My mail</p>
+                                        <p class="subt2">
+                                            <span class="span1">puma37271@gmail.com</span>
+                                        </p>
+                                  </div>
+                              </div>
+                       </div>
+		          </div>  
+            </div> 
+                            <!--  end blocks with content  --> 
+                            
+                            
+                            
+                                <!-- end  all contetn  -->
+        
 </body>
 </html>
